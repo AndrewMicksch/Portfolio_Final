@@ -12,6 +12,7 @@ header{
     padding: 30 px;
     padding-bottom: 20px;
     margin: 10 px;
+    display: flex;
 }
 
 .flex-container{
@@ -26,11 +27,13 @@ header{
 .flex-title{
     width: 100%;
     text-align: center;
+    font-weight: bold;
+    font-size: large; 
     background-color: rgb(0, 65, 65);
 }
 .flex-column{
     padding: 10px;
-    margin: 10px;
+    margin: 10px auto;
     max-width: 400px;
     text-align: center;
     background-color: rgb(0, 65, 65);
@@ -60,6 +63,7 @@ header{
     background-color: cadetblue;
     padding:4px;
 }
+
 
 nav a{
     background-color: rgb(174, 217, 255);
