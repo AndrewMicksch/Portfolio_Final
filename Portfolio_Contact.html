@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Contact</title>
+
+    <link rel="stylesheet" href="main_portfolio.css"></head>
+<body>
+    <header>
+        <h1>Contact page</h1>
+        
+        <div class="Hamburger" id ="divHamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <nav class="nav-links" id="navLinks">
+            <a href="Porfolio_Homepage.html">Home</a>
+            <a href="portfolio_Unity_Projects.html">Unity Projects</a>
+            <a href="porotfolio_Unreal_Projects.html">Unreal Projects</a>
+            <a href="portfolio_Contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <body>
+        <h2>Contact Methods</h2>
+      
+    </body>
+
+    <table>
+        <caption>How to Contact me</caption>
+        <tr>
+            <td>Email</td>
+            <td>AndrewMicksch@gmail.com</td>
+        </tr>
+    </table>
+</body>
+
+<script>
+    let Hamburger = document.getElementByID("divHamburger");
+    let nav = document.getElementById("navLinks");
+
+    Hamburger.addEventListener("click", () =>{
+        nav.classList.toggle("open");
+    })
+</script>
+</html>

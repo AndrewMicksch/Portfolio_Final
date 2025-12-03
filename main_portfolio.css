@@ -88,3 +88,36 @@ nav a:hover{
 .section_content{
 
 }
+.hamburger{
+    display: none;
+}
+@media (max-width:768px){
+    .Hamburger{
+        order: 0;
+        display: block;
+        cursor: pointer;
+    }
+    .Hamburger span{
+        display:block;
+        width: 30px;
+        height: 4px;
+        margin: 5px;
+        background-color: black;
+    }
+
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: aqua;
+        border-radius: 4px;
+        order: 1;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    .nav-links.open{
+        display: flex;
+
+    }
+}
